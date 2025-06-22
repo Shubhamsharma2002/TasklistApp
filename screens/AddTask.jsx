@@ -5,6 +5,7 @@ const AddTask = () => {
   return (
     <View>
       <Text>AddTask</Text>
+      <Text>.......................</Text>
     </View>
   )
 }
