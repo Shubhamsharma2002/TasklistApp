@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const AddTask = () => {
+const AddTaskScreen = () => {
   return (
     <View>
       <Text>AddTask</Text>
@@ -10,6 +10,6 @@ const AddTask = () => {
   )
 }
 
-export default AddTask
+export default AddTaskScreen
 
 const styles = StyleSheet.create({})
