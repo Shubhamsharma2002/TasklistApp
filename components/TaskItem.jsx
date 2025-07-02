@@ -4,6 +4,7 @@ import { Button, Card, Text } from "react-native-paper";
 
 const TaskItem = ({ title, description, createdAt, id }) => {
   return (
+    // card using react native paper
     <Card style={styles.card}>
       <Card.Title title={title} />
       <Card.Content style={styles.padding} title={title} />
