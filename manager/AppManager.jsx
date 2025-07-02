@@ -7,6 +7,7 @@ const AppManager = () => {
     const [currentScreen , setCurrentScreen] = useState(AppScreen.HomeScreen);
     const [task , setTask] = useState([...Dummy_task]);
   return (
+    // use to define the app state
     <View>
      {currentScreen === AppScreen.AddTaskScreen?(
         <AddTaskScreen/>
