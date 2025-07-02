@@ -8,6 +8,7 @@ const HomeScreen = ({task}) => {
   return (
     <View>
       <Text>HomeScreen</Text>
+      {/* using api data for rendring */}
       <FlatList 
       data={task}
       keyExtractor={(item,index)=>item.title+index}
