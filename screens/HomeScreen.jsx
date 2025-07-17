@@ -13,7 +13,7 @@ const HomeScreen = ({task}) => {
       data={task}
       keyExtractor={(item,index)=>item.title+index}
       renderItem={(i)=>(
-        <TaskItem title={i.item.title} description={i.item.description}/>
+        <TaskItem title={i.item.title} description={i.item.description} id={i.item.id} status={i.item.status}/>
       )}
       />
     </View>
