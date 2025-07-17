@@ -8,7 +8,7 @@ export const Dummy_task =
     "id": "1",
     "title": "Design login page UI",
     "description": "Create a responsive login page using Tailwind CSS.",
-    "status": "in-progress",
+    "status": "progress",
     "priority": "high",
     "createdAt": "2025-06-25T10:00:00Z",
     "dueDate": "2025-06-30T17:00:00Z"
