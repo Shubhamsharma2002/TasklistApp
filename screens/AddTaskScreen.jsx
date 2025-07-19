@@ -6,8 +6,8 @@ const AddTaskScreen = () => {
   const [title , setTitle] = useState(" ")
    const [description , setdescription] = useState(" ")
    const handlesubmit = ()=>{
-      // console.log(title);
-      // console.log(description);
+      console.log(title);
+      console.log(description);
       
       
    }
