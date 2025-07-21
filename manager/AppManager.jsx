@@ -6,6 +6,17 @@ import AddTaskScreen from '../screens/AddTaskScreen'
 const AppManager = () => {
     const [currentScreen , setCurrentScreen] = useState(AppScreen.AddTaskScreen);
     const [task , setTask] = useState([...Dummy_task]);
+    const handleTaskComplete = () =>{
+      alert("handdle task complete from App manager");
+    }
+        const handleTaskDelete = () =>{
+      alert("handdle task delete from App manager");
+    }
+        const handleAddNweTask = (newTask) =>{
+       console.log(newTask);
+       
+    }
+    
   return (
     // use to define the app state
     <View>
