@@ -1,4 +1,4 @@
-# 📋 Task List – React Native Cross-Platform App
+<!-- # 📋 Task List – React Native Cross-Platform App
 
 **Task List** is a simple and efficient task management app developed using **React Native**. It works seamlessly across Android and iOS platforms, helping users stay organized and productive.
 
@@ -41,4 +41,4 @@ npm install
 ```
 
 
-
+ -->
